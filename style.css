@@ -1,7 +1,47 @@
-#menu
-{
+
+.header{
     position: fixed;
-    width: 100%;
-    height: 35px;
-    background: white;
+    font-family: 'Lato', sans-serif;
+    background-color: #4eabde;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    text-align: right;
+
 }
+
+.section1{
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #f4f4f4;
+}
+
+
+.section2{
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #ffffff;
+}
+
+.img1{
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+
+}
+
+.img2{
+    left: 0;
+    margin-left: 30px;
+    margin-top: 160px;
+    position: absolute;
+}
+
+.img3{
+    left: 0;
+    margin-left: 800px;
+    margin-top: 160px;
+    position: absolute;
+}
+
