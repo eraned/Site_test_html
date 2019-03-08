@@ -40,11 +40,17 @@ li a:hover {
 }
 
 
+
+
 .section1{
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    background-color: #f4f4f4;
+    background-color: transparent;
+    background-image: url("img/3.jpg");
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px white;
+    text-indent: 30px ;
 }
 
 
@@ -53,26 +59,28 @@ li a:hover {
     font-size: 20px;
     font-weight: bold;
     background-color: #ffffff;
+    background-image: url("img/4.jpg");
+    text-shadow: 2px 2px white;
+    text-indent: 30px ;
 }
 
 .imgBackground{
     position: absolute;
     right: 0;
-    margin-right: 30px;
+    margin-right: 0px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    -webkit-filter: brightness(0.8);
+    filter: brightness(0.8);
 
 }
 
-.img2{
-    left: 0;
-    margin-left: 30px;
-    margin-top: 160px;
+#content{
     position: absolute;
+    left: 50px;
+    right:100px;
+    font-family: "American Typewriter";
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 18px;
 }
-
-.img3{
-    left: 0;
-    margin-left: 800px;
-    margin-top: 160px;
-    position: absolute;
-}
-
