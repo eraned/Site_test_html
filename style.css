@@ -1,30 +1,61 @@
 
-.header{
+body{
+    margin: 0px;
+}
+
+#Navbar {
     position: fixed;
     font-family: 'Lato', sans-serif;
-    background-color: #4eabde;
     color: #ffffff;
     font-weight: 400;
     text-transform: uppercase;
-    margin-bottom: 0px;
-    text-align: right;
-
+    margin: 0;
+    width: 100%;
 }
 
+ul {
+    list-style-type: none;
+    background-color: #4eabde;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
 .section1{
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: bold;
     background-color: #f4f4f4;
 }
 
 
 .section2{
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: bold;
     background-color: #ffffff;
 }
 
-.img1{
+.imgBackground{
     position: absolute;
     right: 0;
     margin-right: 30px;
