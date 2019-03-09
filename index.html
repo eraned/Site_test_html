@@ -7,7 +7,7 @@
 <div id="background">
     <nav id="Navbar">
     <span>
-    <a href="index.html"><img style="right: 0; position: absolute"  src="img/2.png" width="200" height="50" alt="Logo"></a>
+    <a href="index.html"><img style="right: 0; position: absolute"  src="img/site_logo5.png" width="200" height="50" alt="Logo"></a>
     <ul>
         <li><a href="#about">About Me</a></li>
         <li><a href="#photos">My Photos</a></li>
@@ -169,7 +169,9 @@
     <section id="like">
         <br/>
         <h1>Like my Page :</h1>
-
+        <div style="position: absolute; left: 62%;" class="fb-like" data-href="https://eraned.github.io/Site_test_html/" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true">
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Feraned.github.io%2FSite_test_html%2F&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        </div>
         <br/>
         <br/>
         <br/>
@@ -234,31 +236,39 @@
         <br/>
         <br/>
         <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
     </section>
 
     <section id="contact">
         <br/>
         <h1>Contact me :</h1>
+        <div style="float: left; position: relative">
+            <img  width="500" height="300" src="img/background3_all.png">
+        </div>
         <br/>
-        <img  width="500" height="300" align="right"src="img/background3_all.png">
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        <div style="float: left;width: 50%; margin-left: 5%">
+            <form action="malito:eranedrimail@gmail.com" method="post" enctype="text/plain">
+                <input type="text" id="name" name="Name" placeholder="Name*" required>
+                <br/>
+                <br/>
+                <br/>
+                <input type="email" id="email" name="email "placeholder="Email*" required>
+                <br/>
+                <br/>
+                <br/>
+                <input type="text" id="subject" name="subject" placeholder="Subject" >
+                <br/>
+                <br/>
+                <br/>
+                <textarea id="message" placeholder="Message" ></textarea>
+                <br/>
+                <br/>
+                <br/>
+                <input type="submit" id="submit" value="Send Message">
+                <br/>
+                <br/>
+                <br/>
+            </form>
+        </div>
         <br/>
         <br/>
         <br/>
@@ -267,19 +277,19 @@
 
 
 
-<script type="text/javascript">
-    $(function(){
-        $("#nav a").click(function(e){
-            e.preventDefault();
-            $('html,body').scrollTo(this.hash,this.hash);
+    <script type="text/javascript">
+        $(function(){
+            $("#nav a").click(function(e){
+                e.preventDefault();
+                $('html,body').scrollTo(this.hash,this.hash);
+            });
         });
-    });
-</script>
-<script type="text/javascript">
-    $(document).scroll(function() {
-        $('#menu').toggle($(this).scrollTop()>1000)
-    });​
-</script>
+    </script>
+    <script type="text/javascript">
+        $(document).scroll(function() {
+            $('#menu').toggle($(this).scrollTop()>1000)
+        });​
+    </script>
 </div>
 </body>
 </html>
