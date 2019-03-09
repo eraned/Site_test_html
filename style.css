@@ -189,25 +189,6 @@ input#img-4:checked ~ .nav-dots label#img-dot-4{
 }
 
 
-/*.container {*/
-/*display: inline-block;*/
-/*}*/
-
-/*.row {*/
-    /*content: "";*/
-    /*display: inline-block;*/
-    /*clear : both;*/
-    /*width: 100%;*/
-
-/*}*/
-
-/*.col-70{*/
-    /*margin-left: 5em;*/
-    /*margin-top: 5px;*/
-    /*padding: 2px;*/
-    /*width: 100%;*/
-/*}*/
-
 input[type=text], [type=email] {
     width: 100%;
     padding: 12px;
