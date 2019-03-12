@@ -217,9 +217,15 @@ textarea{
     resize: none;
 }
 
-textarea:focus  {
-    font-style: italic;
-    border-bottom: 2px solid black;
+#message{
+    width: 100%;
+    font-family: "Varela Round", sans-serif;
+    padding: 12px;
+    border: 2px solid grey;
+    font-size: 18px;
+    outline: none;
+    height: 100px;
+    resize: none;
 }
 
 input[type=submit] {
